@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Replace 'username' and 'password' with your MySQL username and password
-engine = create_engine('mysql://username:password.@localhost/sakila')
+engine = create_engine('mysql://root:NaniRomero01!!@localhost/sakila')
 query = """
 SELECT c.name AS category, COUNT(r.rental_id) AS rental_count
 FROM category c

@@ -5,7 +5,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Connect to the Sakila database
-engine = create_engine('mysql://username:password@localhost/sakila')
+engine = create_engine('mysql://root:NaniRomero01!!@localhost/sakila')
 
 # Create the Dash app
 app = dash.Dash(__name__)
